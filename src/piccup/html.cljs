@@ -69,7 +69,7 @@
 (defn elem-factory [tag-def]
   (let [[nsp tag attrs content] (normalize-element tag-def)
         elem (create-elem nsp tag)]
-    (pdom/attr elem (merge attrs {:pinotId (swap! elem-id inc)}))
+    (pdom/attr elem (merge attrs {:piccupId (swap! elem-id inc)}))
     (as-content elem content)
     elem))
 
