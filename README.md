@@ -12,7 +12,8 @@ clojurescript closure library.
 This lib is only for hiccup style rendering. No other dom utils.
 
 ## Usage
-```(ns your.ns
+```
+(ns your.ns
   (:require [piccup.html :as ph]))
 
 (def my-dom-element     (first (ph/html [:div "hi"])))
@@ -21,7 +22,7 @@ This lib is only for hiccup style rendering. No other dom utils.
 
 ## JAR
 
-Pending...
+Clojars: [piccup "1.0.0"]
 
 
 ## Compilation
