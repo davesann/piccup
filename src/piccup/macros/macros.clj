@@ -6,4 +6,4 @@
   map of the returned tag value."
   [name & fdecl]
   `(let [func# (fn ~@fdecl)]
-    (def ~name (phiccup.tags/add-optional-attrs func#))))
+    (def ~name (piccup.tags/add-optional-attrs func#))))
