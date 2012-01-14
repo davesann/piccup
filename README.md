@@ -22,7 +22,8 @@ This lib is only for hiccup style rendering. No other dom utils.
 
 ## JAR
 
-Clojars: [piccup "1.0.0"]
+Clojars: [piccup "1.0.0"] - old property access syntax
+Clojars: [piccup "1.1.0"] - new property access syntax
 
 
 ## Compilation
